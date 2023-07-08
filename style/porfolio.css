@@ -1,14 +1,15 @@
-*{
+* {
     font-family: 'Open Sans',
-sans-serif;
-/* margin: 0px; */
-/* padding: 0px; */
+        sans-serif;
+    /* margin: 0px; */
+    /* padding: 0px; */
 }
-.text-primary{
+
+.text-primary {
     color: #FD6E0A;
 }
 
-.btn-primary{
+.btn-primary {
     border-radius: 5px;
     background-color: #FD6E0A;
     font-size: 20px;
@@ -18,26 +19,32 @@ sans-serif;
     border: 0;
     padding: 18px 35px;
 }
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
+
+
 }
+
 /* css shared style */
 
 /* nav related styles */
 nav .nav-title {
     color: #181818;
-font-family: Open Sans;
-font-size: 45px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 
-nav > ul {
+nav>ul {
     display: flex;
     align-items: center;
+
 }
 
 nav li {
@@ -45,8 +52,24 @@ nav li {
     margin-right: 50px;
 
 }
+
 nav a {
     text-decoration: none;
     color: #474747;
     font-size: 20px;
+}
+
+/* header relate style */
+.header {
+    background-color: #FFF8F3;
+
+}
+
+.banner {
+    padding: 30px 30PX 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-picture{
+    width: 500px;
 }
