@@ -110,17 +110,20 @@ nav a {
 }
 
 /* main section styles */
+main{
+    max-width:1140px;
+    margin: 0 auto;
+}
 
 /* about section styles */
 .about {
     background: #FFF8F3;
     border-radius: ;
-    padding: 100px;
-    width: 1140px;
+    padding: 50px;
     margin: 130px auto 130px auto;
-
-
+    
 }
+
 .section-description {
     margin: 0px 156px;
     text-align: center;
@@ -128,5 +131,15 @@ nav a {
     font-weight: 400;
     line-height: 30px;
     color: #757575;
-
 }
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.about-info{
+    text-align: center;
+    height: 60px;
+}
+
