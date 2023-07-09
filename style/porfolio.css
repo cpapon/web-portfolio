@@ -160,6 +160,9 @@ main {
 .skill-container {
     display: flex;
     margin-top: 50px;
+    gap: 25px;
+    vertical-align: middle;
+    text-align: justify;
 }
 
 .skill {
@@ -167,7 +170,7 @@ main {
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     padding: 30px 33px;
-    margin-left: 25px;
+    gap: 50px;
 }
 
 .skill-details {
@@ -175,11 +178,11 @@ main {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 28px;
+    
 }
 
 .skill-title {
-    color: #181818);
+    color: #181818;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
