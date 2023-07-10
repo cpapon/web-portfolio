@@ -188,3 +188,13 @@ main {
     font-weight: 700;
     line-height: normal;
 }
+
+/* section resume styles*/
+.resume-container{
+    display: flex;
+}
+.resume-title{
+    color: #474747;
+font-size: 30px;
+font-weight: 700;
+}
