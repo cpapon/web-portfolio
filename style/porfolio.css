@@ -232,4 +232,49 @@ footer{
     display: flex;
     background-color: #FFF8F3;
     padding: 130px 230px;
+    gap: 100px;
+    
+}
+
+.footer-item-column{
+    width: 50%;
+   
+}
+
+.footer-item-details{
+color: #474747;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+}
+
+.social-media{
+    margin-left:0;
+    padding: 0;
+}
+.social-media a {
+    padding-top:30px ;
+    padding-right: 30px;
+}
+.send-message input{
+    display: block;
+    width: 100%;
+    border: 0;
+    margin-bottom: 25px;
+}
+.send-message textarea{
+    display: block;
+    width: 100%;
+    border: 0;
+}
+
+.send-message input, textarea{
+    padding: 10px;
+}
+
+.footer-title{
+    color: #181818;
+    
+    font-size: 35px;
+    font-weight: 700;
 }
